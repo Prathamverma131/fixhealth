@@ -1,0 +1,39 @@
+.card-image{
+    height: 150px;
+    width: 150px;
+    position: relative;
+  padding: 5px;
+  border-radius: 50%;
+
+}
+
+.card{
+    border-radius: 25px;
+    background-color: plum;
+}
+#heading{
+    text-align: center;
+    margin: 16px;
+}
+
+.card-image img{
+    border-radius: 50%;
+    
+}
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+   justify-content: center;
+   background: black;
+   padding: 32px 11px;
+}
+
+
+.card-content{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
